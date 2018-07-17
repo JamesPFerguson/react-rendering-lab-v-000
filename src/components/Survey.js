@@ -25,8 +25,10 @@ class Survey extends React.Component {
 
   maintainRating = () => this.forceUpdate();
 
-  componentWillReceieveProps = () => {
+  componentWillReceieveProps = (nextProps) => {
+    this.setState({
 
+    })
   }
 
   render() {
