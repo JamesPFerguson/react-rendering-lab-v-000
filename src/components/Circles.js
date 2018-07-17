@@ -25,7 +25,7 @@ class Circles extends React.Component {
     this.setState({ circles: newCircles });
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
+  shouldComponentUpdate(nextProps) {
     return (this.props.color !== nextProps.color)
   }
 
