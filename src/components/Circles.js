@@ -26,8 +26,8 @@ class Circles extends React.Component {
   }
 
   shouldComponentUpdate(nextProps) {
-    return (this.props.color !== nextProps.color)
-  }
+     return (this.props.color !== nextProps.color)
+   }
 
   render() {
     const renderCircles = this.state.circles.map((circle, index) =>
