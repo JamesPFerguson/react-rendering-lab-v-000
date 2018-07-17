@@ -32,7 +32,7 @@ class Animation extends React.Component {
   };
 
   componentWillUpdate = () => {
-    showLoadingBar();
+    this.showLoadingBar();
   }
 
   render() {
